@@ -1,3 +1,15 @@
-body {
-    background-color: blue;
+#name {
+    text-align: center;
+    color: blueviolet;
+}
+nav {
+    background-color: #CBC3E3;
+    float: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav a {
+    padding-left: 10px;
+    padding-right: 10px;
 }
