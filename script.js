@@ -1,5 +1,9 @@
-/*const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+const darkMode = document.getElementById('dark');
+const body = document.getElementById('body');
 
-document.querySelector("body").appendChild(h2);
-*/
+function test() {
+  body.classList.toggle('dark'); 
+}
+
+
+darkMode.addEventListener('click', test);

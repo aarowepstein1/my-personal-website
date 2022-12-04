@@ -1,6 +1,15 @@
-#name {
+.name {
     text-align: center;
     color: blueviolet;
+    transition: 1s;
+}
+.dark {
+    background-color:black;
+    color:whitesmoke;
+    transition: 1s;
+}
+#body {
+    transition: 1s;
 }
 nav {
     background-color: #CBC3E3;
